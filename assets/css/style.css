@@ -1,5 +1,5 @@
 .headerwrapping {
-    background-color: white`;
+    background-color: white;
     padding: 20px;
     margin-left: -10px;
     margin-top: -10px;
@@ -33,29 +33,37 @@
 
 h1 {
     color: #0077b5;
-    width: 105px;
-    padding: 20px;
-
+    margin-left: -300px;
+    text-align: center;
 }
 
 
 #personalfloat {
-    margin: 4px 10px 0px 0px;
+    margin: 25px 20px 0px 25px;
     border-color: 1px black;
     float: left;
 }
 
 #connect {
-    float: right;
-    background-color: white;
+    float: left;
+    background-color: rgb(43, 42, 42);
+    width: 180px;
+    margin-right: 200px;
+    color: #0077b5;
+    padding: 25px;
+    margin-left: 700px;
+    margin-top: -580px;
 }
 
 
 #aboutMe {
-    background-color: white;
-    padding: 50px;
-    border: 10px solid pink;
-    margin-top: 150px;
+    background-color: rgb(43, 42, 42);
+    width: 40%;
+    margin-top: 30px;
+    line-height: 200%;
+    color: white;
+    margin-left: 100px;    
+    padding: 20px;
 }
 
 
@@ -63,8 +71,12 @@ h1 {
 #footer {
     clear: both;
     text-align: center;
-
 }
 
+hr {
+    width: 90%;
+    height: 1px;
+    background-color: #7d7d7e;
+}
 
 
