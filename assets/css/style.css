@@ -1,5 +1,5 @@
 .headerwrapping {
-    background-color: white;
+    background-image: url(https://wallpaperscraft.com/image/gray_white_spots_abstraction_faded_65625_1920x1080.jpg);
     padding: 20px;
     margin-left: -10px;
     margin-top: -10px;
@@ -27,7 +27,7 @@
 
 .body {
     margin-top: 10px;
-    background-image: url("https://image.freepik.com/free-photo/light-gray-texture-pattern_1194-7060.jpg");
+    background-image: url("https://thediyfoodie.com/wp-content/uploads/2015/10/Light-Grey-Background-Texture-4.jpg");
 
 }
 
@@ -71,6 +71,13 @@ h1 {
 #footer {
     clear: both;
     text-align: center;
+    background-image: url(https://wallpaperscraft.com/image/gray_white_spots_abstraction_faded_65625_1920x1080.jpg);
+    padding: 25px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;    
 }
 
 hr {
