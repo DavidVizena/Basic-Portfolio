@@ -1,5 +1,48 @@
+.headerwrapping {
+    background-color: white;
+    padding: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: 10;
+    border-style: none none solid none;
+    border-bottom-color: black;
+}
+
+
 #davidvizena {
     background-color: #0077b5;
     color: white;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    border-bottom: 2.5px solid black;
+    margin-left: 100px;
+}
+
+#navigation {
+ color: gray; 
+ margin-left: 950px; 
+ margin-top: -38px;
+}
+
+.body {
+    margin-top: 10px;
+    background-image: url("https://image.freepik.com/free-photo/light-gray-texture-pattern_1194-7060.jpg");
+
+}
+
+
+#about me {
+    clear: both;
+    margin-top: -100px;
+    background-color: white;
+    border-bottom: 10px #0077b5;
+
+}
+
+h1 {
+    color: #0077b5;
+    background-color: white;
+    width: 105px;
 
 }
