@@ -188,7 +188,7 @@ hr {
     color: white;
     text-align: center;
     background-color: #0077b5;
-    clear: both;
+    float: left;
     padding: 1px;
     margin-left: 166px;
     margin-top: -710px;
@@ -200,10 +200,10 @@ hr {
     color: white;
     background-color: #0077b5;
     text-align: center;
-    clear: both;
+    float: left;
     padding: 1px;
     margin-left: 166px;
-    margin-top: -710px;
+    margin-top: -560px;
     width: 250px;
 }
 
@@ -212,9 +212,10 @@ hr {
     color: white;
     background-color: #0077b5;
     text-align: center;
-    clear: both;
+    float: left;
     padding: 1px;
-    margin-left: 31px;
+    margin-left: 166px;
+    margin-top: -415px;
     width: 250px;
 }
 
@@ -223,9 +224,11 @@ hr {
     color: white;
     background-color: #0077b5;
     text-align: center;
-    clear: both;
+    float: right;
     padding: 1px;
     width: 250px;
+    margin-right: 415px;
+    margin-top: -560px;
 }
 
 #rock {
@@ -233,7 +236,9 @@ hr {
     color: white;
     background-color: #0077b5;
     text-align: center;
-    clear: both;
+    float: right;
     padding: 1px;
     width: 250px;
+    margin-right: 415px;
+    margin-top: -710px
 }
