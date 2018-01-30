@@ -7,6 +7,7 @@
     margin-left: -10px;
     margin-top: -10px;
     margin-right: -10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -18,24 +19,45 @@
     text-align: center;
     border-bottom: 2.5px solid black;
     margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #navigation {
  color: gray; 
  margin-left: 950px; 
  margin-top: -38px;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 .body {
     margin-top: 10px;
     background-image: url("https://thediyfoodie.com/wp-content/uploads/2015/10/Light-Grey-Background-Texture-4.jpg");
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color: #0077b5;
     margin-left: -300px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -430px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#links1 {
+    margin-left: 45px;
+}
+
+#links2 {
+    margin-left: 45px;
+}
+
+#links3 {
+    margin-left: 45px;
 }
 
 
@@ -43,59 +65,64 @@ h1 {
     margin: 25px 20px 0px 25px;
     border-color: 1px black;
     float: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #portfolio {
-    float: left;
     background-color: rgb(43, 42, 42);
-    width: 40%;
+    width: 650;
     color: #0077b5;
     padding: 25px;
     margin-top: 30px;
     margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #connect1 {
     float: left;
     background-color: rgb(43, 42, 42);
-    width: 180px;
+    width: 270px;
     margin-right: 200px;
     color: #0077b5;
-    padding: 25px;
-    margin-left: 700px;
-    margin-top: -580px;
+    padding: 15px;
+    margin-left: 850px;
+    margin-top: -518px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #connect2 {
     float: left;
     background-color: rgb(43, 42, 42);
-    width: 180px;
+    width: 270px;
     margin-right: 200px;
     color: #0077b5;
-    padding: 25px;
-    margin-left: 700px;
-    margin-top: -300px;
+    padding: 15px;
+    margin-left: 850px;
+    margin-top: -888px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #connect3 {
     float: left;
     background-color: rgb(43, 42, 42);
-    width: 180px;
+    width: 270px;
     margin-right: 200px;
     color: #0077b5;
-    padding: 25px;
-    margin-left: 700px;
+    padding: 15px;
+    margin-left: 850px;
     margin-top: -318px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 #aboutMe {
     background-color: rgb(43, 42, 42);
-    width: 40%;
+    width: 650px;
     margin-top: 30px;
     line-height: 200%;
     color: white;
     margin-left: 110px;    
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -109,7 +136,9 @@ h1 {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 50px;    
+    height: 50px;   
+    font-family: Arial, Helvetica, sans-serif; 
+    border-top: 2.5px solid black;
 }
 
 hr {
@@ -121,10 +150,36 @@ hr {
 #contact {
     background-color: rgb(43, 42, 42);
     color: #0077b5;
-    width: 40%;
+    width: 650px;
     margin-top: 30px;
     margin-left: 110px;
     padding: 25px;
     line-height: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+   width: 200px;
+   height: 150px;
+}
+
+#img {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 32px;
+}
+
+#img2 {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 369px;
+    margin-top: -450px;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
 }
 
