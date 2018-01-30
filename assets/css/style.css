@@ -183,3 +183,57 @@ hr {
     height: auto;
 }
 
+#hangman {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #0077b5;
+    clear: both;
+    padding: 1px;
+    margin-left: 166px;
+    margin-top: -710px;
+    width: 250px;
+}
+
+#rpg {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0077b5;
+    text-align: center;
+    clear: both;
+    padding: 1px;
+    margin-left: 166px;
+    margin-top: -710px;
+    width: 250px;
+}
+
+#trivia {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0077b5;
+    text-align: center;
+    clear: both;
+    padding: 1px;
+    margin-left: 31px;
+    width: 250px;
+}
+
+#rutgers {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0077b5;
+    text-align: center;
+    clear: both;
+    padding: 1px;
+    width: 250px;
+}
+
+#rock {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0077b5;
+    text-align: center;
+    clear: both;
+    padding: 1px;
+    width: 250px;
+}
