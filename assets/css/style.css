@@ -7,7 +7,6 @@ body {
     width: 960px;
     margin: auto;
 }
-/* start page 1 */
 /* Header */
 .headerwrapping {
     background-image: url(https://wallpaperscraft.com/image/gray_white_spots_abstraction_faded_65625_1920x1080.jpg);
@@ -45,7 +44,7 @@ body {
 .clearfix {
     clear: both;
 }
-
+/* Start page 1 */
 #middleSection {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 25px;
@@ -103,17 +102,62 @@ text-align: center;
 /* end page 1 */
 
 /* page 2 */
-#portfolio {
+#Portfolio {
+    margin-top: 10px;
+    margin-bottom: 50px;;
+    overflow: hidden;
+    margin-left: -300px;
+    margin-top: 14px;
+ }
+
+ .pictures {
+    box-sizing: border-box;
+    width: 650px;
+    background: rgb(43, 42, 42);
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+ }
+
+.pictures .wrapper{
+    position: relative;
+    width: 40%;
+    float: left;
+    margin: 0 15px;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px 15px;
+}
+
+.pictures .wrapper p {
+    position: absolute;
+    top: 195px;
+    width: 82%;
+    background-color: #0077b5;
+    text-align: center;
+    display: block;
+    z-index: 2;
+}
+
+.pictures img {
+border: 1px solid #0077b5;
+transition: .4s;
+}
+/* End of portfolio page */
+/* Start of contacts page*/
+
+#contact {
     background-color: rgb(43, 42, 42);
-    width: 650;
     color: #0077b5;
-    padding: 25px;
+    width: 650px;
     margin-top: 30px;
     margin-left: 110px;
+    padding: 25px;
+    line-height: 200%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* Footer */
 #footer {
     clear: both;
     text-align: center;
@@ -127,100 +171,6 @@ text-align: center;
     font-family: Arial, Helvetica, sans-serif; 
     border-top: 3px solid #000000;
 }
+/* End footer */
 
 
-#contact {
-    background-color: rgb(43, 42, 42);
-    color: #0077b5;
-    width: 650px;
-    margin-top: 30px;
-    margin-left: 110px;
-    padding: 25px;
-    line-height: 200%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.img {
-   width: 200px;
-   height: 150px;
-}
-
-#img {
-    width: 250px;
-    height: 150px;
-    float: left;
-    margin-left: 32px;
-}
-
-#img2 {
-    width: 250px;
-    height: 150px;
-    float: left;
-    margin-left: 369px;
-    margin-top: -450px;
-}
-
-.img img {
-    width: 100%;
-    height: auto;
-}
-
-#hangman {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-    background-color: #0077b5;
-    float: left;
-    padding: 1px;
-    margin-left: 166px;
-    margin-top: -710px;
-    width: 250px;
-}
-
-#rpg {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: #0077b5;
-    text-align: center;
-    float: left;
-    padding: 1px;
-    margin-left: 166px;
-    margin-top: -560px;
-    width: 250px;
-}
-
-#trivia {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: #0077b5;
-    text-align: center;
-    float: left;
-    padding: 1px;
-    margin-left: 166px;
-    margin-top: -415px;
-    width: 250px;
-}
-
-#rutgers {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: #0077b5;
-    text-align: center;
-    float: right;
-    padding: 1px;
-    width: 250px;
-    margin-right: 415px;
-    margin-top: -560px;
-}
-
-#rock {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: #0077b5;
-    text-align: center;
-    float: right;
-    padding: 1px;
-    width: 250px;
-    margin-right: 415px;
-    margin-top: -710px
-}
