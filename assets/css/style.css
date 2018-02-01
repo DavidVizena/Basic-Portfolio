@@ -76,6 +76,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 25px;
     margin-left: 25px;
+    font-size: 38px;
 }
 
 h2 {
@@ -83,6 +84,12 @@ h2 {
     text-align: center;
     color: #0077b5;
     padding: 25px;
+    font-size: 26px;
+}
+
+input {
+    width: 85%;
+    padding: 10px;
 }
 /* Connect section */
 #connect {
